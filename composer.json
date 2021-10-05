@@ -1,0 +1,32 @@
+{
+    "name": "yireo/shopware6-command-system-info",
+    "description": "Adds system:info CLI command",
+    "type": "shopware-platform-plugin",
+    "version": "0.0.1",
+    "authors": [
+        {
+            "name": "Jisse Reitsma",
+            "email": "jisse@yireo.com"
+        }
+    ],
+    "require": {
+        "shopware/core": "~6.4",
+        "ext-json": "*"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Yireo\\CommandSystemInfo\\": "src/"
+        }
+    },
+    "extra": {
+        "shopware-plugin-class": "Yireo\\CommandSystemInfo\\YireoCommandSystemInfo",
+        "copyright": "Acme",
+        "label": {
+            "en-GB": "YireoCommandSystemInfo"
+        },
+        "description": {
+            "en-GB": "Adds system:info CLI command"
+        }
+    }
+}
